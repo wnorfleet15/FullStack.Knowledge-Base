@@ -1,0 +1,40 @@
+# TypeScript is superset to JS built around js
+    adds more features and static typing 
+
+# typescript basics
+
+    type annotation: used to tell ts the type of variable, function, or class member
+
+    interfaces: used to define the shape of an object, w/o specifying how the object is implemented.
+
+    classes: used to create reusale blueprints for objects.
+
+#  Adding a TS package - added to specific project
+cd to the folder that you are using
+
+-create an empty package.json file:
+    npm init -y
+
+-install the compiler:
+    npm install typescript
+
+-to use ts compiler:
+    npx tsc "name of main file"
+
+-create tsconfig.json with recommended setting
+    npx tsc --init
+
+once node is created run  node main.js
+
+submit changes with npx tsc
+
+# Variable Assignments
+
+
+-Explicit Type
+    let firstName: string = "nolan"; //type string
+
+-Implicit Type
+    let firstName = "andrew"; //inferred to type string
+
+# 
